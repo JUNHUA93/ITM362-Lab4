@@ -1,3 +1,7 @@
+body{
+font-family: 'Sofia';font-size: 22px;
+}
+
 input[type="last name"],
 input[type="first name"],
 input[type="email"],
@@ -28,6 +32,4 @@ top:50%;
 left:50%;
 }
 
-body{
-font-family: 'Sofia';font-size: 22px;
-}
+
