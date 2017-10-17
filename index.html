@@ -3,32 +3,30 @@
 <head>
   <title>HTML Form Elements</title>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
   <link rel="stylesheet" media="screen" href="css/screen.css">
   <link rel="stylesheet" media="screen" href="css/normalize-form.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
-</head>
+  </head>
 <body>
-<main id = "signuppage">
+<main id = "content">
 	<form method="get" action="#null">
-	<h1>Subscribe for Free Trial for a month!</h1>
- <ul>
- <li id ="name">
- <label for="name">Name:</label>
- <input type="name" name="name" id="name" placeholder="firstname/lastname">
- </li>
- 	<li id ="email">
+	<h1>Free Trial for a month</h1>
+	<p> Sign up to get a month free Trial.
+    </p>
+ <ol>
+ 	<li id ="input-email">
  		<label for="email">Email: </label>
  		<input type="email" name="email" id= "email" placeholder="@youremail.com" />
  	</li>
- 	<li id ="age-check">
- 		<input type="checkbox" name="age-check" value="18" />
- 		<label for="age-check"> I am older than 18 years old</label>
+ 	<li id ="input-age-verification">
+ 		<input type="checkbox" id="age-verification" name="age-verification" value="18" />
+ 		<label for="age-verification"> I am older than 18 years old</label>
  	</li>
  	<li id="submitnow">
         <input type="submit" name="submit" id="submit" value="Subscribe Now" />
       </li>
-     </ul>
+     </ol>
     </form>
    </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
