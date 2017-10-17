@@ -1,78 +1,37 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<title>RSVP</title>
+  <title>HTML Form Elements</title>
+  <meta charset="utf-8" />
+ <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link rel="stylesheet" media="screen" href="css/screen.css">
+  <link rel="stylesheet" media="screen" href="css/normalize-form.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
 </head>
-
-<link rel="stylesheet" type="text/css" href="CSS/formofcss.css"> 
-<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
 <body>
-
-<form id="Registration" action="index.html" method="post">
-
-<h1>Registration Form</h1>
-<p align= center>Welcome, please enter your personal information blow</p>
-
-<label for="first name">First Name:</label>
-
-<input type="First Name" placeholder="First Name" id="First Name" name="user_First Name">
-<br>
-
-<label for="last name">Last Name:</label>
-
-<input type="Last Name" placeholder="Last Name" id="Last Name" name="user_Last Name">
-<br>
-
-  <label for="mail">Email:</label>
-
-<input type="email" placeholder="example@gmail.com" id="mail" name="user_email">
-<br>
-
-<label for="phoneNo">Phone Number:</label>
-
-<input type="phoneNumber" placeholder="xxx-xxx-xxxx" id="phoneNo" name="user_phoneNumber">
-<br>
-
-<label for="address">Address:</label>
-<input type="address" placeholder="Street/apt(option)/city/state/zip code" id="address" name="user_address">
-<br>
-
-<label for="DOB">date of Birth:</label>
-
-
-<input type="dateofbirth" placeholder="mm/dd/yyyy" id="DOB" name="user_dob">
-
-<br>
-
-<label for="COB">city of Birth:</label>
-
-<input type="cityofbirth" placeholder="city/state" id="COB" name="user_cob">
-
-<br>
-
-<tr>
-
-<td class=”column2”>Gender</td>
-
-<td class=”column”><select name="drop">
-
-<option value="Male">Male</option>
-
-<option value="Female">Female</option>
-
-</select></td>
-
-</tr>
-
-<br>
-
-<button type="submit">Submit</button>
-
-</form>
-
-
-
+<main id = "signuppage">
+	<form method="get" action="#null">
+	<h1>Subscribe for Free Trial for a month!</h1>
+ <ul>
+ <li id ="name">
+ <label for="name">Name:</label>
+ <input type="name" name="name" id="name" placeholder="firstname/lastname">
+ </li>
+ 	<li id ="email">
+ 		<label for="email">Email: </label>
+ 		<input type="email" name="email" id= "email" placeholder="@youremail.com" />
+ 	</li>
+ 	<li id ="age-check">
+ 		<input type="checkbox" name="age-check" value="18" />
+ 		<label for="age-check"> I am older than 18 years old</label>
+ 	</li>
+ 	<li id="submitnow">
+        <input type="submit" name="submit" id="submit" value="Subscribe Now" />
+      </li>
+     </ul>
+    </form>
+   </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
+  <script src="js/site.js"></script>
 </body>
-
 </html>
